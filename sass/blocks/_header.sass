@@ -1,0 +1,43 @@
+.header
+  position: fixed
+  z-index: 100
+  top: 0
+  left: 0
+  right: 0
+  width: 100%
+  background: rgba(19, 54, 65, 0.15)
+  &__wrapp
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__logo
+    display: flex
+    align-items: center
+    & a
+      margin-left: 120px
+      font-style: normal
+      font-weight: 700
+      font-size: 20px
+      line-height: 24px
+      letter-spacing: 0.05em
+      color: black
+  &__attribute
+    display: flex
+    align-items: center
+    & span
+      margin-right: 37px
+      font-weight: 400
+      font-size: 15px
+      line-height: 24px
+      letter-spacing: 0.05em
+    & img
+      width: 17px
+      height: 30px
+.logo
+  width: 87px
+  height: 84px
+@media (max-width: 921px)
+  .header
+    &__logo
+      & a
+        margin-left: 60px

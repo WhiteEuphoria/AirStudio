@@ -1,0 +1,81 @@
+.work
+  &__wrapp
+    height: 400px
+    display: flex
+    justify-content: space-evenly
+  &__service
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    & span
+      font-weight: 600
+      font-size: 20px
+      line-height: 24px
+      color: #2B4956
+    & ul
+      padding-left: 20px
+      & li
+        font-style: normal
+        font-weight: 700
+        font-size: 20px
+        line-height: 24px
+        color: #00131A
+        padding-bottom: 16px
+        &:last-child
+          padding-bottom: 0
+  &__call
+    width: 500px
+    height: 400px
+    position: relative
+    & img
+      border-radius: 8px
+      width: 100%
+      height: 100%
+      object-fit: cover
+      background-position: center
+      background-repeat: no-repeat
+    &--wrapp
+      position: absolute
+      z-index: 10
+      position: absolute
+      left: 50%
+      transform: translateX(-50%)
+      top: 80px
+      color: white
+      text-align: center
+      width: 400px
+      & h3
+        font-weight: 600
+        font-size: 24px
+        line-height: 28px
+      & span
+        font-weight: 400
+        font-size: 16px
+        line-height: 24px
+        max-width: 300px
+        paddin-top: 30px
+        padding-bottom: 30px
+      & form
+        display: flex
+        align-items: center
+        width: 400px
+        & input
+          background: #FFFFFF
+          border-radius: 15px 0px 0px 15px
+          // padding-left: 20px
+          font-weight: 700
+          font-size: 17px
+          line-height: 21px
+          letter-spacing: 0.05em
+          color: #00131A
+          width: 200px
+          height: 52px
+          margin: 0
+          &::placeholder
+            padding-left: 20px
+        & button
+          width: 200px
+          height: 65px
+          border: none
+          margin: 0
